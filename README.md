@@ -10,3 +10,8 @@ The Button library consolidates information from several example programs found 
 The 'state' method returns HIGH or LOW to indicate the current state of the button. But it also accepts a 'changed' reference parameter that is returned as 'true' if the Button detected that state actually changed since the last time the 'state' method was called.
 
 There's a simple example in the examples directory called LedOnOff.ino which demonstrates this use.
+
+Button1
+=======
+
+The Button1 class illustrates another facinating way to debounce a button in software. This class is significantly smaller, easily implementable in firmware or hardware, but has the drawback of not being able to detect button releases - a feature of the original Button class. It's good enough for the lion's share of applications, however, and it works really well, filtering both bounce and EMI. Read the header comment in the Button1.h file for a detailed explanation of how it works.
