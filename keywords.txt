@@ -1,3 +1,4 @@
 Button	KEYWORD1
+Button1	KEYWORD1
 state	KEYWORD2
-init	KEYWORD2
+pressed	KEYWORD2
